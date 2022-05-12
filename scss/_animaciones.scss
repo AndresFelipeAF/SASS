@@ -1,0 +1,64 @@
+nav{
+    ul{
+        li{
+            a:hover{
+                font-size:large; 
+            }
+            
+        }
+    }
+}
+header{
+    div{
+        a:hover{
+            background-color: rgb(4, 4, 17);
+        }
+        }
+    }
+footer{
+    li{
+        a:hover{
+            font-size: large;
+        }
+    }
+    
+}
+.about{
+    h3:hover{
+        animation-name: notocar;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+    }
+}
+// animaciones 
+@keyframes entrar_izquierda{
+    0%{
+        transform: translateX(-500px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+} 
+@keyframes entrar_derecha{
+    0%{
+        transform: translateX(500px);
+    }
+    50%{
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes notocar{
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}

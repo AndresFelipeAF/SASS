@@ -1,0 +1,147 @@
+// Inicio main Index
+main {
+    iframe{
+        padding: 20px 15px;
+        padding-bottom: 30px;
+    }
+    .about{
+    text-align: center;
+    background-image: url(../public/background-about.jpeg);
+    background-size: 100% 100%;
+    img{
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+    }   
+    .about-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        p{
+            color: black;
+            text-align: justify;
+            margin: 20px;
+        }
+    }
+    }
+   
+}
+// main pagina 2 contactarme
+main {
+    // mapa ubicación
+    .iframe{
+        background-color: midnightblue;
+        p{
+            color: white;
+            font-size: small;
+            text-align: center;
+        }
+    }
+    // Formulario 
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        h2{
+            text-align: center;
+            color: black;
+            font-size: 40px;
+            padding: 20px;
+        }
+        form{
+            margin: 15px 0;
+            padding: 20px;
+            background-color: rgb(42, 124, 97);
+            border: 3px solid black;
+            width: 300px;
+            .solicitud{
+                width: 200px;
+            }
+            input{
+                display: block;
+                margin: 5px;
+            }
+            
+        }
+    }
+}
+// Fin pagina 2 Contactarme
+// inicio pagina 3 Pasatiempos
+.hobbies{
+   
+        background-color: rgba(128, 128, 128, 0.44);
+        h1{
+            text-align: center;
+            color: black;
+            font-size: 40px;
+        }
+            .table{
+                padding: 30px;
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                p{
+                    text-align: center;
+                    font-size: medium;
+                }
+            }
+        
+    }
+// Fin pagina 3 Pasatiempos
+// Inicio pagina 4 Cursos
+.courses{
+    background-color: white;
+    h1{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+    .wrap{
+        margin: 15px;
+        height: 300px;
+        width: 400px;
+        border: 3px solid red;
+        background-color:black;
+        color: white;
+        text-align: center;
+    }
+
+}
+// Fin pagina 4 Cursos
+// Inico pagina 5  Hola
+main {
+    .hola{
+        background-color: aqua;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       text-align: center;
+       .hola1{
+            
+           h1{
+            font-family:'Merriweather',sans-serif ;
+            animation-name: entrar_izquierda;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
+            animation-duration: 2s;
+           }
+           p{
+            font-family: 'Source Sans Pro', sans-serif;
+            animation-name: entrar_derecha;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
+            animation-duration: 2s;
+           }
+       }
+
+    
+    }
+}

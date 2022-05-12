@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px){
+
+nav{
+    flex-direction: row;
+}
+
+// Index
+// header
+header{
+    justify-content: flex-end;
+    div{
+        h2{
+            text-align:right;
+        }
+        p{
+            text-align: center;
+        }
+        a{
+            font-size: larger;
+            margin-left: 55%;
+        }
+    }
+}
+
+// Fin header
+// Inicio about me 
+main{
+    .about{
+        .about-flex{
+            justify-content: space-around;
+            flex-direction: row-reverse;
+            .about-p{
+                width: auto;
+            }
+        }
+    }   
+}
+// Fin about me 
+// Inicio contactarme pagina 2 
+main{
+    .form{
+        flex-direction: row;
+        justify-content:space-around;
+        form{
+            margin: 20px 0;
+            width: 400px;
+            .solicitud{
+                width: 300px;
+            }
+        }
+    }
+}
+// Fin Contactarme pagina 2
+// Inicio pasatiempos pagina 3 
+.hobbies{
+    .table{
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        p{
+            text-align: justify;
+            font-size: large;  
+        }
+    }
+}
+// Fin pasatiempos pagina 3 
+
+}

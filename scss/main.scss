@@ -1,0 +1,38 @@
+@import "header";
+@import "nav";
+@import"main2";
+@import"footer.scss";
+@import"animaciones";
+@import"mediaqueris.scss";
+
+// Modificaciones generales
+body{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+a{
+    text-decoration: none;
+}
+
+// Index Grid
+body{
+    div{
+        .grid{
+            display: grid;
+            grid-template-areas: 
+            "nav"
+            "header"
+            "main"
+            "footer" ;
+        } 
+        }
+    }
+// Grid main index
+main{
+    grid-area: main;
+    
+}
+
