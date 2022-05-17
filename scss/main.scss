@@ -1,9 +1,12 @@
-@import "header";
-@import "nav";
-@import"main2";
+@import "header.scss";
+@import "nav.scss";
+@import"main2.scss";
 @import"footer.scss";
 @import"animaciones";
 @import"mediaqueris.scss";
+@import"maps.scss";
+
+
 
 // Modificaciones generales
 body{

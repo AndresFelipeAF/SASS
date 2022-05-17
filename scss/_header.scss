@@ -1,3 +1,19 @@
+
+// extend
+.boton {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid;
+}
+
+// mixins 
+@mixin size($margin,$padding){
+    margin:$margin;
+    padding:$padding;
+
+}
+
+
 // index header
 header{
     background-image: url(../public/background-header.jpg);
@@ -8,8 +24,7 @@ header{
     div{
         background-color: black;
         border: 3px solid white;
-        margin: 10px;
-        padding: 5px;
+        @include size(10px,5px);
         color: white; 
         h2{
             margin: 10px;
@@ -21,16 +36,17 @@ header{
             margin: 10px;
             
         }
+      
         a{
+            @extend .boton;
             display: inline-block;
-            margin: 10px;
-            padding: 5px;
-            border: 2px solid rgb(36, 114, 224);
             background-color: rgb(36, 114, 224);
             color:white;
             font-size: medium;
             margin-left: 40%;
+            border-color: blue;
         }
     }
 }
 // fin header index 
+

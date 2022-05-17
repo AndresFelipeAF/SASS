@@ -1,3 +1,8 @@
+.boton, header div a, main .form form input {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid; }
+
 header {
   background-image: url(../public/background-header.jpg);
   height: 300px;
@@ -18,13 +23,11 @@ header {
       margin: 10px; }
     header div a {
       display: inline-block;
-      margin: 10px;
-      padding: 5px;
-      border: 2px solid #2472e0;
       background-color: #2472e0;
       color: white;
       font-size: medium;
-      margin-left: 40%; }
+      margin-left: 40%;
+      border-color: blue; }
 
 nav {
   grid-area: nav;
@@ -73,8 +76,7 @@ main .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: aquamarine; }
+  align-items: center; }
   main .form h2 {
     text-align: center;
     color: black;
@@ -83,7 +85,6 @@ main .form {
   main .form form {
     margin: 15px 0;
     padding: 20px;
-    background-color: #2a7c61;
     border: 3px solid black;
     width: 300px; }
     main .form form .solicitud {
@@ -92,23 +93,22 @@ main .form {
       display: block;
       margin: 5px; }
 
-.hobbies {
-  background-color: rgba(128, 128, 128, 0.44); }
-  .hobbies h1 {
+.hobbies h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px; }
+
+.hobbies .table {
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center; }
+  .hobbies .table img {
+    width: 100px;
+    height: 100px; }
+  .hobbies .table p {
     text-align: center;
-    color: black;
-    font-size: 40px; }
-  .hobbies .table {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    margin: 0; }
-    .hobbies .table img {
-      width: 100px;
-      height: 100px; }
-    .hobbies .table p {
-      text-align: center;
-      font-size: medium; }
+    font-size: medium; }
 
 .courses {
   background-color: white; }
@@ -220,6 +220,21 @@ footer li a:hover {
   .hobbies .table p {
     text-align: justify;
     font-size: large; } }
+
+.bg-colorgrey {
+  background-color: grey; }
+
+.bg-colorblack {
+  background-color: black; }
+
+.bg-colorwhite {
+  background-color: white; }
+
+.bg-colorgrey2 {
+  background-color: rgba(89, 89, 89, 0.304); }
+
+.bg-colorblack2 {
+  background-color: rgba(35, 32, 32, 0.603); }
 
 body {
   margin: 0;

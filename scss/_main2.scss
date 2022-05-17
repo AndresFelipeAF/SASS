@@ -44,7 +44,6 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: aquamarine;
         h2{
             text-align: center;
             color: black;
@@ -52,15 +51,14 @@ main {
             padding: 20px;
         }
         form{
-            margin: 15px 0;
-            padding: 20px;
-            background-color: rgb(42, 124, 97);
+            @include size(15px 0,20px);
             border: 3px solid black;
             width: 300px;
             .solicitud{
                 width: 200px;
             }
             input{
+                @extend .boton;
                 display: block;
                 margin: 5px;
             }
@@ -72,17 +70,15 @@ main {
 // inicio pagina 3 Pasatiempos
 .hobbies{
    
-        background-color: rgba(128, 128, 128, 0.44);
         h1{
             text-align: center;
             color: black;
             font-size: 40px;
         }
             .table{
-                padding: 30px;
+                @include size(30px,0);
                 display: flex;
                 justify-content: center;
-                margin: 0;
                 img{
                     width: 100px;
                     height: 100px;
