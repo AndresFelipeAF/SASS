@@ -1,5 +1,13 @@
 // Inicio main Index
 main {
+    .carousel{
+        h2{
+            color:white;
+            text-align: center;
+            padding: 20px;
+        }
+    }
+   
     iframe{
         padding: 20px 15px;
         padding-bottom: 30px;
@@ -8,15 +16,19 @@ main {
     text-align: center;
     background-image: url(../public/background-about.jpeg);
     background-size: 100% 100%;
+    h3{
+        padding-top: 40px;
+    }
     img{
         width: 150px;
         height: 150px;
         margin: 15px;
     }   
     .about-flex{
+        height: 400px;
         display: flex;
         flex-direction: column-reverse;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         p{
             color: black;
@@ -31,7 +43,7 @@ main {
 main {
     // mapa ubicación
     .iframe{
-        background-color: midnightblue;
+        
         p{
             color: white;
             font-size: small;
@@ -74,19 +86,24 @@ main {
             text-align: center;
             color: black;
             font-size: 40px;
+            padding: 10px;
         }
             .table{
                 @include size(30px,0);
                 display: flex;
                 justify-content: center;
-                img{
-                    width: 100px;
-                    height: 100px;
-                }
-                p{
-                    text-align: center;
-                    font-size: medium;
-                }
+                    img{
+                        margin: 15px;
+                        width: 100px;
+                        height: 100px;
+                    }
+                    p{
+                        margin: 15px;
+                        text-align: center;
+                        font-size: medium;
+                    }
+            
+               
             }
         
     }

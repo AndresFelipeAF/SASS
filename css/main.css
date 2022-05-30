@@ -5,7 +5,7 @@
 
 header {
   background-image: url(../public/background-header.jpg);
-  height: 300px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -29,19 +29,18 @@ header {
       margin-left: 40%;
       border-color: blue; }
 
-nav {
-  grid-area: nav;
-  background-color: black;
-  flex-direction: column;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  nav a {
-    color: blue !important; }
-  nav img {
-    margin: 10px;
-    width: 50px;
-    height: 50px; }
+nav a {
+  color: whitesmoke !important; }
+
+nav img {
+  margin: 10px;
+  width: 50px;
+  height: 50px; }
+
+main .carousel h2 {
+  color: white;
+  text-align: center;
+  padding: 20px; }
 
 main iframe {
   padding: 20px 15px;
@@ -51,26 +50,27 @@ main .about {
   text-align: center;
   background-image: url(../public/background-about.jpeg);
   background-size: 100% 100%; }
+  main .about h3 {
+    padding-top: 40px; }
   main .about img {
     width: 150px;
     height: 150px;
     margin: 15px; }
   main .about .about-flex {
+    height: 400px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center; }
     main .about .about-flex p {
       color: black;
       text-align: justify;
       margin: 20px; }
 
-main .iframe {
-  background-color: midnightblue; }
-  main .iframe p {
-    color: white;
-    font-size: small;
-    text-align: center; }
+main .iframe p {
+  color: white;
+  font-size: small;
+  text-align: center; }
 
 main .form {
   display: flex;
@@ -96,7 +96,8 @@ main .form {
 .hobbies h1 {
   text-align: center;
   color: black;
-  font-size: 40px; }
+  font-size: 40px;
+  padding: 10px; }
 
 .hobbies .table {
   margin: 30px;
@@ -104,9 +105,11 @@ main .form {
   display: flex;
   justify-content: center; }
   .hobbies .table img {
+    margin: 15px;
     width: 100px;
     height: 100px; }
   .hobbies .table p {
+    margin: 15px;
     text-align: center;
     font-size: medium; }
 
@@ -147,10 +150,12 @@ main .hola {
 
 footer {
   text-align: center;
-  color: #0059ff;
+  color: whitesmoke;
   font-size: medium;
   padding-top: 10px;
   background-color: black; }
+  footer li a {
+    color: whitesmoke !important; }
 
 nav ul li a:hover {
   font-size: large; }
@@ -202,8 +207,13 @@ footer li a:hover {
       font-size: larger;
       margin-left: 55%; }
   main .about .about-flex {
+    padding: 150px;
     justify-content: space-around;
     flex-direction: row-reverse; }
+    main .about .about-flex img {
+      width: 250px;
+      height: 250px;
+      margin: 15px; }
     main .about .about-flex .about-p {
       width: auto; }
   main .form {

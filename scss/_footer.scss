@@ -1,7 +1,12 @@
 footer{
     text-align: center;
-    color: rgb(0, 89, 255);
+    color: whitesmoke;
     font-size: medium;
     padding-top: 10px;
     background-color: black;
+   li{
+       a{
+           color: whitesmoke!important;
+       }
+   }
 }

@@ -28,8 +28,14 @@ header{
 main{
     .about{
         .about-flex{
+            padding: 150px;
             justify-content: space-around;
             flex-direction: row-reverse;
+            img{
+                width: 250px;
+                height: 250px;
+                margin: 15px;
+            }
             .about-p{
                 width: auto;
             }
