@@ -5,6 +5,9 @@
 @import"animaciones";
 @import"mediaqueris.scss";
 @import"maps.scss";
+// Variables
+$font:16px;
+// acomodar todas las letras con operaciones y colocar fuentes, link en html y en scss
 
 
 
@@ -12,11 +15,26 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:'Merriweather',sans-serif ;
+}
+h1{
+    font-size: $font + 8;
+}
+h2{
+    font-size: $font + 6;
+}
+h3{
+    font-size: $font + 4;
+
+}
+p{
+    font-size: $font;
 }
 ::-webkit-scrollbar{
     display:none;
 }
 a{
+    font: $font + 4;
     text-decoration: none;
 }
 

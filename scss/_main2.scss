@@ -46,7 +46,6 @@ main {
         
         p{
             color: white;
-            font-size: small;
             text-align: center;
         }
     }
@@ -85,7 +84,6 @@ main {
         h1{
             text-align: center;
             color: black;
-            font-size: 40px;
             padding: 10px;
         }
             .table{
@@ -100,7 +98,6 @@ main {
                     p{
                         margin: 15px;
                         text-align: center;
-                        font-size: medium;
                     }
             
                
@@ -113,8 +110,9 @@ main {
     background-color: white;
     h1{
         text-align: center;
-        color: red;
         font-size: 40px;
+        color: red;
+       
     }
     .wrap{
         margin: 15px;
@@ -140,7 +138,7 @@ main {
        .hola1{
             
            h1{
-            font-family:'Merriweather',sans-serif ;
+           
             animation-name: entrar_izquierda;
             animation-iteration-count: 1;
             animation-timing-function: ease;

@@ -69,7 +69,6 @@ main .about {
 
 main .iframe p {
   color: white;
-  font-size: small;
   text-align: center; }
 
 main .form {
@@ -96,7 +95,6 @@ main .form {
 .hobbies h1 {
   text-align: center;
   color: black;
-  font-size: 40px;
   padding: 10px; }
 
 .hobbies .table {
@@ -110,15 +108,14 @@ main .form {
     height: 100px; }
   .hobbies .table p {
     margin: 15px;
-    text-align: center;
-    font-size: medium; }
+    text-align: center; }
 
 .courses {
   background-color: white; }
   .courses h1 {
     text-align: center;
-    color: red;
-    font-size: 40px; }
+    font-size: 40px;
+    color: red; }
   .courses .wrap {
     margin: 15px;
     height: 300px;
@@ -136,7 +133,6 @@ main .hola {
   justify-content: center;
   text-align: center; }
   main .hola .hola1 h1 {
-    font-family: 'Merriweather',sans-serif;
     animation-name: entrar_izquierda;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -204,7 +200,6 @@ footer li a:hover {
     header div p {
       text-align: center; }
     header div a {
-      font-size: larger;
       margin-left: 55%; }
   main .about .about-flex {
     padding: 150px;
@@ -228,8 +223,7 @@ footer li a:hover {
     width: 150px;
     height: 150px; }
   .hobbies .table p {
-    text-align: justify;
-    font-size: large; } }
+    text-align: justify; } }
 
 .bg-colorgrey {
   background-color: grey; }
@@ -248,12 +242,26 @@ footer li a:hover {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Merriweather',sans-serif; }
+
+h1 {
+  font-size: 24px; }
+
+h2 {
+  font-size: 22px; }
+
+h3 {
+  font-size: 20px; }
+
+p {
+  font-size: 16px; }
 
 ::-webkit-scrollbar {
   display: none; }
 
 a {
+  font: 20px;
   text-decoration: none; }
 
 body div .grid {
